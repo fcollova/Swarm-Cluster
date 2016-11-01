@@ -1,5 +1,5 @@
-# swarm-base-ansible
-vagrant + ansible to setup a base swarm cluster (docker 1.12+)
+# Swarm-Cluster
+Virtual box + Vagrant + Ansible to setup a base swarm cluster (docker 1.12+)
 
 ## Prerequisites
 **Virtual Box 5.1.8 r111374 (Qt5.6.1)**
