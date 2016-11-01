@@ -1,0 +1,19 @@
+---
+- hosts: all
+  roles:
+  - base
+  - docker
+  - flocker
+
+- hosts: master
+  roles:
+  - compose
+  - flocker-control
+
+- hosts: swarm-master
+  roles:
+  - swarm-master
+
+- hosts: minion
+  roles:
+  - swarm
